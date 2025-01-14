@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Simple Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="calculator-container">
+            <div class="themes">
+                <button onclick="changeTheme1()" class="theme1">🟧</button>
+                <button onclick="changeTheme2()" class="theme2">🟦</button>
+                <button onclick="changeTheme3()" class="theme3">🟪</button>
+            </div>
+            <div class="display">
+                <div id="output"></div>
+            </div>
+            <div class="keys">
+                <button onclick="clearOutput()" class="Orange_key">AC</button>
+                <button onclick="appendToOutput('/')" class="Orange_key">/</button>
+                <button onclick="appendToOutput('*')" class="Orange_key">*</button>
+                <button onclick="appendToOutput('-')" class="Orange_key">-</button>
+                <button class="other_keys" onclick="appendToOutput('7')">7</button>
+                <button class="other_keys" onclick="appendToOutput('8')">8</button>
+                <button class="other_keys" onclick="appendToOutput('9')">9</button>
+                <button class="Orange_key" onclick="appendToOutput('+')" class="Orange_key">+</button>
+                <button class="other_keys" onclick="appendToOutput('4')">4</button>
+                <button class="other_keys" onclick="appendToOutput('5')">5</button>
+                <button class="other_keys" onclick="appendToOutput('6')">6</button>
+                <button onclick="computeResult()" class="Orange_key">=</button>
+                <button class="other_keys" onclick="appendToOutput('1')">1</button>
+                <button class="other_keys" onclick="appendToOutput('2')">2</button>
+                <button class="other_keys" onclick="appendToOutput('3')">3</button>
+                <button class="Orange_key" onclick="appendToOutput('.')" class="Orange_key">.</button>
+                <button class="other_keys" onclick="appendToOutput('0')">0</button>
+                <button class="other_keys" onclick="removeLastChar()">DEL</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
