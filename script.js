@@ -47,6 +47,10 @@ function changeTheme1() {
     document.querySelector('.display').style.backgroundColor = 'hsl(0, 0%, 20%)';
 
     document.querySelector('.display').style.color = '#f0f0f0';
+
+    document.querySelector('.theme1').style.backgroundColor = 'hsl(0, 0%, 15%)';
+    document.querySelector('.theme2').style.backgroundColor = 'hsl(0, 0%, 15%)';
+    document.querySelector('.theme3').style.backgroundColor = 'hsl(0, 0%, 15%)';
 }
 
 function changeTheme2() {
@@ -69,6 +73,10 @@ function changeTheme2() {
     document.querySelector('.display').style.backgroundColor = 'hsl(224, 36%, 15%)';
 
     document.querySelector('.display').style.color = '#f0f0f0';
+
+    document.querySelector('.theme1').style.backgroundColor = 'hsl(223, 31%, 20%)';
+    document.querySelector('.theme2').style.backgroundColor = 'hsl(223, 31%, 20%)';
+    document.querySelector('.theme3').style.backgroundColor = 'hsl(223, 31%, 20%)';
 }
 
 function changeTheme3() {
@@ -91,4 +99,9 @@ function changeTheme3() {
     document.querySelector('.display').style.backgroundColor = 'hsl(268, 47%, 21%)';
 
     document.querySelector('.display').style.color = 'hsl(52, 100%, 62%)';
+
+    document.querySelector('.theme1').style.backgroundColor = 'hsl(268, 71%, 12%)';
+    document.querySelector('.theme2').style.backgroundColor = 'hsl(268, 71%, 12%)';
+    document.querySelector('.theme3').style.backgroundColor = 'hsl(268, 71%, 12%)';
 }
+
