@@ -103,5 +103,5 @@ function changeTheme3() {
     document.querySelector('.theme1').style.backgroundColor = 'hsl(268, 71%, 12%)';
     document.querySelector('.theme2').style.backgroundColor = 'hsl(268, 71%, 12%)';
     document.querySelector('.theme3').style.backgroundColor = 'hsl(268, 71%, 12%)';
-}
+};
 
